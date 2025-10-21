@@ -1,0 +1,50 @@
+/* src/components/Navbar.module.css */
+.header {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(4px);
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.nav {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--text-primary);
+}
+
+.navLinks {
+  display: none; /* Hidden on mobile */
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navLink {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: color 0.2s ease-in-out;
+}
+
+.navLink:hover {
+  color: var(--primary-blue);
+}
+
+.active {
+  color: var(--primary-blue);
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .navLinks {
+    display: flex; /* Shown on medium screens and up */
+  }
+}

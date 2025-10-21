@@ -1,0 +1,36 @@
+/* src/components/ui/card.module.css */
+.card {
+  background-color: var(--card-background);
+  color: var(--text-primary);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--border-color);
+  padding: 1.5rem 0;
+  box-shadow: var(--shadow-sm);
+}
+
+.cardHeader {
+  display: grid;
+  gap: 0.5rem;
+  padding: 0 1.5rem;
+}
+
+.cardTitle {
+  line-height: 1;
+  font-weight: 600;
+}
+
+.cardDescription {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+}
+
+.cardContent {
+  padding: 0 1.5rem;
+  flex-grow: 1; /* For project card */
+  display: flex; /* For project card */
+  flex-direction: column; /* For project card */
+  justify-content: flex-end; /* For project card */
+}

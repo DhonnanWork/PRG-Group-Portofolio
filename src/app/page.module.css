@@ -1,0 +1,94 @@
+/* src/app/projects/page.module.css */
+.page {
+  padding: 4rem 0;
+}
+
+.header {
+  text-align: center;
+  max-width: 48rem;
+  margin: 0 auto 3rem;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+}
+
+.projectCard {
+  transition: all 0.2s ease-in-out;
+}
+
+.projectCard:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.techContainer {
+  margin-bottom: 1rem;
+}
+
+.techTitle {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.techList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.techTag {
+  background-color: #f1f5f9; /* slate-100 */
+  color: #334155; /* slate-700 */
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.25rem 0.625rem;
+  border-radius: 9999px;
+}
+
+.link {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--primary-blue);
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.link:hover {
+  color: var(--primary-blue-hover);
+}
+
+.linkIcon {
+  width: 1rem;
+  height: 1rem;
+}
+
+@media (min-width: 768px) {
+  .projectGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .title {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .projectGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

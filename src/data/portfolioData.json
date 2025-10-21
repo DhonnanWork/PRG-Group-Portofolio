@@ -1,0 +1,73 @@
+{
+  "site": {
+    "name": "Kelompok 5 Portfolio",
+    "navLinks": [
+      { "name": "Home", "href": "/" },
+      { "name": "About", "href": "/about" },
+      { "name": "Projects", "href": "/projects" },
+      { "name": "Contact", "href": "/contact" }
+    ]
+  },
+  "home": {
+    "title": "Solusi Digital Inovatif",
+    "subtitle": "Kami adalah tim pengembang kreatif yang berdedikasi untuk membangun aplikasi web yang modern dan fungsional.",
+    "cta_projects": "Lihat Proyek Kami",
+    "cta_contact": "Hubungi Kami"
+  },
+  "about": {
+    "title": "Tentang Tim Kami",
+    "description": "Sebuah tim yang terdiri dari mahasiswa berbakat dengan semangat untuk teknologi dan pemecahan masalah. Setiap anggota membawa keahlian unik untuk menciptakan produk digital yang luar biasa."
+  },
+  "team": [
+    {
+      "name": "Adinda Arista",
+      "nim": "0920240047",
+      "role": "Project Manager & UI/UX Designer"
+    },
+    {
+      "name": "Dhonnan Raissa R.F",
+      "nim": "0920240042",
+      "role": "Lead Frontend Developer"
+    },
+    {
+      "name": "Nur Widyastuti",
+      "nim": "0920240055",
+      "role": "QA & UX Researcher"
+    },
+    {
+      "name": "Zafki Adipratama P",
+      "nim": "0920240037",
+      "role": "Backend & DevOps Engineer"
+    }
+  ],
+  "projects": {
+    "title": "Proyek Kami",
+    "description": "Berikut adalah beberapa proyek unggulan yang telah kami kerjakan, menunjukkan keahlian kami dalam pengembangan perangkat lunak.",
+    "items": [
+      {
+        "title": "SIA Scraper & Task Reminder",
+        "description": "Sebuah tool untuk melakukan scraping data dari website SIA universitas, yang kemudian menampilkan tugas atau file penting sebagai pengingat.",
+        "link": "https://github.com/DhonnanWork/ScrapingSIA",
+        "tech": ["Python", "Beautiful Soup", "Next.js"]
+      },
+      {
+        "title": "Platform E-Commerce 'NusaMart'",
+        "description": "Frontend untuk platform e-commerce fiktif yang menjual produk lokal Indonesia. Didesain dengan antarmuka yang bersih, responsif, dan modern.",
+        "link": "#",
+        "tech": ["Next.js", "Tailwind CSS", "TypeScript"]
+      },
+      {
+        "title": "Sistem Manajemen Inventaris 'Stok Cerdas'",
+        "description": "Aplikasi berbasis web sederhana untuk membantu UMKM melacak stok barang, mengelola data produk, dan memantau penjualan secara real-time.",
+        "link": "#",
+        "tech": ["React", "Node.js", "Express", "PostgreSQL"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "description": "Punya pertanyaan atau ide proyek yang ingin didiskusikan? Kami siap mendengarkan.",
+    "email": "kontak.kelompok5@email.com",
+    "phone": "+62 812-3456-7890"
+  }
+}

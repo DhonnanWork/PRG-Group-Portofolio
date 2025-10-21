@@ -1,30 +1,31 @@
+﻿// src/app/layout.tsx
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Background from "@/components/Background";
-import Header from "@/components/Header";
+import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Dorothy's Portfolio",
-  description: "A portfolio of my work as a creative developer.",
+    title: "Portfolio Kelompok 5",
+    description: "Portfolio hasil kerja Kelompok 5",
 };
 
 export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="en" className="!scroll-smooth">
-      <body className={inter.className}>
-        <Background />
-        <Header />
-        <main className="relative z-10">{children}</main>
-        <Footer />
-      </body>
-    </html>
-  );
+    children,
+}: Readonly<{
+    children: React.ReactNode;
+}>) {
+    return (
+        <html lang="en">
+            <body className={inter.variable}>
+                <Navbar />
+                <main style={{ flexGrow: 1 }}>
+                    {children}
+                </main>
+                <Footer />
+            </body>
+        </html>
+    );
 }

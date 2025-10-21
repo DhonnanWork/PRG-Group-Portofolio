@@ -1,0 +1,55 @@
+/* src/app/contact/page.module.css */
+.page {
+  padding: 4rem 0;
+}
+
+.header {
+  text-align: center;
+  max-width: 42rem;
+  margin: 0 auto 3rem;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+  max-width: 56rem;
+  margin: 0 auto;
+}
+
+.contactCardHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contactIcon {
+  width: 2rem;
+  height: 2rem;
+  color: var(--primary-blue);
+}
+
+.contactInfo p {
+  color: var(--text-secondary);
+}
+
+@media (min-width: 768px) {
+  .contactGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+   .title {
+    font-size: 3rem;
+  }
+}

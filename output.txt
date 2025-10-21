@@ -1,0 +1,1126 @@
+﻿
+[D:\Work\PROG\my-portfolio\.next\cache\next-devtools-config.json]
+{}
+
+[D:\Work\PROG\my-portfolio\.next\server\app-paths-manifest.json]
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/projects/page": "app/projects/page.js"
+}
+
+[D:\Work\PROG\my-portfolio\.next\server\middleware-manifest.json]
+{
+  "version": 3,
+  "middleware": {},
+  "functions": {},
+  "sortedMiddleware": []
+}
+
+[D:\Work\PROG\my-portfolio\.next\server\next-font-manifest.json]
+{"pages":{},"app":{},"appUsingSizeAdjust":false,"pagesUsingSizeAdjust":false}
+
+[D:\Work\PROG\my-portfolio\.next\server\pages-manifest.json]
+{}
+
+[D:\Work\PROG\my-portfolio\.next\server\server-reference-manifest.json]
+{
+  "node": {},
+  "edge": {},
+  "encryptionKey": "LsaXyKGvbldZXPLY1jCxqegAeatcNuwi7onMDwVf8n8="
+}
+
+[D:\Work\PROG\my-portfolio\.next\static\css\app\layout.css]
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[14].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src\\app\\layout.tsx","import":"Inter","arguments":[{"subsets":["latin"],"variable":"--font-sans"}],"variableName":"inter"} ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/PRG-Group-Portofolio/_next/static/media/ba9851c3c22cd980-s.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/PRG-Group-Portofolio/_next/static/media/21350d82a1f187e9-s.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/PRG-Group-Portofolio/_next/static/media/c5fe6dc8356a8c31-s.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/PRG-Group-Portofolio/_next/static/media/19cfc7226ec3afaa-s.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/PRG-Group-Portofolio/_next/static/media/df0a9ae256c0569c-s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/PRG-Group-Portofolio/_next/static/media/8e9860b6e62d6359-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/PRG-Group-Portofolio/_next/static/media/e4af272ccee01ff0-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: 'Inter Fallback';src: local("Arial");ascent-override: 90.44%;descent-override: 22.52%;line-gap-override: 0.00%;size-adjust: 107.12%
+}.__className_78600b {font-family: 'Inter', 'Inter Fallback';font-style: normal
+}.__variable_78600b {--font-sans: 'Inter', 'Inter Fallback'
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./src/app/globals.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+/*! tailwindcss v4.1.15 | MIT License | https://tailwindcss.com */
+@layer properties;
+.\@container\/card-header {
+  container-type: inline-size;
+  container-name: card-header;
+}
+.sticky {
+  position: sticky;
+}
+.z-50 {
+  z-index: 50;
+}
+.col-start-2 {
+  grid-column-start: 2;
+}
+.row-span-2 {
+  grid-row: span 2 / span 2;
+}
+.row-start-1 {
+  grid-row-start: 1;
+}
+.container {
+  width: 100%;
+}
+.mx-auto {
+  margin-inline: auto;
+}
+.contents {
+  display: contents;
+}
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+.hidden {
+  display: none;
+}
+.inline-block {
+  display: inline-block;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.h-\[calc\(90vh-4rem\)\] {
+  height: calc(90vh - 4rem);
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.w-fit {
+  width: fit-content;
+}
+.shrink-0 {
+  flex-shrink: 0;
+}
+.flex-grow {
+  flex-grow: 1;
+}
+.auto-rows-min {
+  grid-auto-rows: min-content;
+}
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.grid-rows-\[auto_auto\] {
+  grid-template-rows: auto auto;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.items-center {
+  align-items: center;
+}
+.items-start {
+  align-items: flex-start;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.self-start {
+  align-self: flex-start;
+}
+.justify-self-end {
+  justify-self: flex-end;
+}
+.rounded-full {
+  border-radius: calc(infinity * 1px);
+}
+.border {
+  border-style: var(--tw-border-style);
+  border-width: 1px;
+}
+.border-2 {
+  border-style: var(--tw-border-style);
+  border-width: 2px;
+}
+.border-t {
+  border-top-style: var(--tw-border-style);
+  border-top-width: 1px;
+}
+.border-b {
+  border-bottom-style: var(--tw-border-style);
+  border-bottom-width: 1px;
+}
+.border-b-2 {
+  border-bottom-style: var(--tw-border-style);
+  border-bottom-width: 2px;
+}
+.bg-gradient-to-br {
+  --tw-gradient-position: to bottom right in oklab;
+  background-image: linear-gradient(var(--tw-gradient-stops));
+}
+.bg-gradient-to-r {
+  --tw-gradient-position: to right in oklab;
+  background-image: linear-gradient(var(--tw-gradient-stops));
+}
+.bg-clip-text {
+  background-clip: text;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.leading-none {
+  --tw-leading: 1;
+  line-height: 1;
+}
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+.text-transparent {
+  color: transparent;
+}
+.underline-offset-4 {
+  text-underline-offset: 4px;
+}
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.outline {
+  outline-style: var(--tw-outline-style);
+  outline-width: 1px;
+}
+.transition {
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, content-visibility, overlay, pointer-events;
+  transition-timing-function: var(--tw-ease, ease);
+  transition-duration: var(--tw-duration, 0s);
+}
+.transition-all {
+  transition-property: all;
+  transition-timing-function: var(--tw-ease, ease);
+  transition-duration: var(--tw-duration, 0s);
+}
+.transition-colors {
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to;
+  transition-timing-function: var(--tw-ease, ease);
+  transition-duration: var(--tw-duration, 0s);
+}
+.outline-none {
+  --tw-outline-style: none;
+  outline-style: none;
+}
+.hover\:underline {
+  &:hover {
+    @media (hover: hover) {
+      text-decoration-line: underline;
+    }
+  }
+}
+.focus-visible\:ring-\[3px\] {
+  &:focus-visible {
+    --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+}
+.disabled\:pointer-events-none {
+  &:disabled {
+    pointer-events: none;
+  }
+}
+.disabled\:opacity-50 {
+  &:disabled {
+    opacity: 50%;
+  }
+}
+.has-data-\[slot\=card-action\]\:grid-cols-\[1fr_auto\] {
+  &:has(*[data-slot="card-action"]) {
+    grid-template-columns: 1fr auto;
+  }
+}
+.\[\&_svg\]\:pointer-events-none {
+  & svg {
+    pointer-events: none;
+  }
+}
+.\[\&_svg\]\:shrink-0 {
+  & svg {
+    flex-shrink: 0;
+  }
+}
+@property --tw-animation-delay {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0s;
+}
+@property --tw-animation-direction {
+  syntax: "*";
+  inherits: false;
+  initial-value: normal;
+}
+@property --tw-animation-duration {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-animation-fill-mode {
+  syntax: "*";
+  inherits: false;
+  initial-value: none;
+}
+@property --tw-animation-iteration-count {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
+}
+@property --tw-enter-blur {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-enter-opacity {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
+}
+@property --tw-enter-rotate {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-enter-scale {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
+}
+@property --tw-enter-translate-x {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-enter-translate-y {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-exit-blur {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-exit-opacity {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
+}
+@property --tw-exit-rotate {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-exit-scale {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
+}
+@property --tw-exit-translate-x {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-exit-translate-y {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+@property --tw-leading {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+@property --tw-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-inset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-inset-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-inset-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-inset-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-inset-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-ring-inset {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ring-offset-width {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0px;
+}
+@property --tw-ring-offset-color {
+  syntax: "*";
+  inherits: false;
+  initial-value: #fff;
+}
+@property --tw-ring-offset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@layer properties {
+  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
+    *, ::before, ::after, ::backdrop {
+      --tw-border-style: solid;
+      --tw-leading: initial;
+      --tw-outline-style: solid;
+      --tw-shadow: 0 0 #0000;
+      --tw-shadow-color: initial;
+      --tw-shadow-alpha: 100%;
+      --tw-inset-shadow: 0 0 #0000;
+      --tw-inset-shadow-color: initial;
+      --tw-inset-shadow-alpha: 100%;
+      --tw-ring-color: initial;
+      --tw-ring-shadow: 0 0 #0000;
+      --tw-inset-ring-color: initial;
+      --tw-inset-ring-shadow: 0 0 #0000;
+      --tw-ring-inset: initial;
+      --tw-ring-offset-width: 0px;
+      --tw-ring-offset-color: #fff;
+      --tw-ring-offset-shadow: 0 0 #0000;
+      --tw-animation-delay: 0s;
+      --tw-animation-direction: normal;
+      --tw-animation-duration: initial;
+      --tw-animation-fill-mode: none;
+      --tw-animation-iteration-count: 1;
+      --tw-enter-blur: 0;
+      --tw-enter-opacity: 1;
+      --tw-enter-rotate: 0;
+      --tw-enter-scale: 1;
+      --tw-enter-translate-x: 0;
+      --tw-enter-translate-y: 0;
+      --tw-exit-blur: 0;
+      --tw-exit-opacity: 1;
+      --tw-exit-rotate: 0;
+      --tw-exit-scale: 1;
+      --tw-exit-translate-x: 0;
+      --tw-exit-translate-y: 0;
+    }
+  }
+}
+
+
+[D:\Work\PROG\my-portfolio\.next\static\webpack\5acf5e57765d330f.webpack.hot-update.json]
+{"c":["webpack"],"r":[],"m":[]}
+
+[D:\Work\PROG\my-portfolio\.next\static\webpack\633457081244afec._.hot-update.json]
+{"c":[],"r":[],"m":[]}
+
+[D:\Work\PROG\my-portfolio\.next\static\webpack\89030ee073c24ac5.webpack.hot-update.json]
+{"c":["webpack"],"r":[],"m":[]}
+
+[D:\Work\PROG\my-portfolio\.next\static\webpack\8c6d9916e90f9d8e.webpack.hot-update.json]
+{"c":["webpack"],"r":[],"m":[]}
+
+[D:\Work\PROG\my-portfolio\.next\static\webpack\f47c3c9d2fcb7a14.webpack.hot-update.json]
+{"c":["webpack"],"r":[],"m":[]}
+
+[D:\Work\PROG\my-portfolio\.next\types\package.json]
+{"type": "module"}
+
+[D:\Work\PROG\my-portfolio\.next\app-build-manifest.json]
+{
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
+    "/projects/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/projects/page.js"
+    ],
+    "/contact/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/contact/page.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
+    ]
+  }
+}
+
+[D:\Work\PROG\my-portfolio\.next\build-manifest.json]
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
+  ],
+  "rootMainFiles": [
+    "static/chunks/webpack.js",
+    "static/chunks/main-app.js"
+  ],
+  "rootMainFilesTree": {},
+  "pages": {
+    "/_app": []
+  },
+  "ampFirstPages": []
+}
+
+[D:\Work\PROG\my-portfolio\.next\package.json]
+{"type": "commonjs"}
+
+[D:\Work\PROG\my-portfolio\.next\prerender-manifest.json]
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "7f0e4d476e7d92f6c016a83dc56080a6",
+    "previewModeSigningKey": "32667e3a0a26982e5343ae263dcbd1d708543aadac5ac5405a4a6a166ed85e26",
+    "previewModeEncryptionKey": "08e270899a033b2526f61f033ab77ac0411c5e8b21dca85553ae3246076bfaa4"
+  }
+}
+
+[D:\Work\PROG\my-portfolio\.next\react-loadable-manifest.json]
+{
+  "..\\node_modules\\next\\dist\\client\\dev\\hot-reloader\\app\\use-websocket.js -> @vercel/turbopack-ecmascript-runtime/browser/dev/hmr-client/hmr-client.ts": {
+    "id": "..\\node_modules\\next\\dist\\client\\dev\\hot-reloader\\app\\use-websocket.js -> @vercel/turbopack-ecmascript-runtime/browser/dev/hmr-client/hmr-client.ts",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_next_dist_client_dev_noop-turbopack-hmr_js.js"
+    ]
+  }
+}
+
+[D:\Work\PROG\my-portfolio\.next\routes-manifest.json]
+{"version":3,"caseSensitive":false,"basePath":"/PRG-Group-Portofolio","rewrites":{"beforeFiles":[{"source":"/PRG-Group-Portofolio//_next/:path+","destination":"/PRG-Group-Portofolio/_next/:path+","regex":"^\\/PRG-Group-Portofolio\\/\\/_next(?:\\/((?:[^\\/]+?)(?:\\/(?:[^\\/]+?))*))(?:\\/)?$"}],"afterFiles":[],"fallback":[]},"redirects":[{"source":"/PRG-Group-Portofolio/","destination":"/PRG-Group-Portofolio","permanent":true,"basePath":false,"internal":true,"regex":"^\\/PRG-Group-Portofolio\\/$"},{"source":"/:path+/","destination":"/:path+","permanent":true,"internal":true,"regex":"^(?:\\/((?:[^\\/]+?)(?:\\/(?:[^\\/]+?))*))\\/$"}],"headers":[]}
+
+[D:\Work\PROG\my-portfolio\src\app\about\page.tsx]
+import data from '@/data/portfolioData.json';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { User } from "lucide-react";
+
+export default function AboutPage() {
+  return (
+    <main className="container mx-auto px-4 py-16">
+      <div className="text-center max-w-3xl mx-auto mb-12">
+        <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">
+          {data.about.title}
+        </h1>
+        <p className="text-lg text-slate-600">
+          {data.about.description}
+        </p>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        {data.team.map((member) => (
+          <Card key={member.nim} className="text-center transition-all hover:shadow-lg hover:-translate-y-1">
+            <CardHeader>
+              <div className="mx-auto w-24 h-24 mb-4 rounded-full bg-slate-100 flex items-center justify-center">
+                <User className="w-12 h-12 text-slate-400" />
+              </div>
+              <CardTitle>{member.name}</CardTitle>
+              <CardDescription>{member.nim}</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <p className="text-sm font-medium bg-blue-100 text-blue-700 rounded-full px-3 py-1 inline-block">
+                {member.role}
+              </p>
+            </CardContent>
+          </Card>
+        ))}
+      </div>
+    </main>
+  );
+}
+
+[D:\Work\PROG\my-portfolio\src\app\contact\page.tsx]
+import data from '@/data/portfolioData.json';
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Mail, Phone } from 'lucide-react';
+
+export default function ContactPage() {
+  return (
+    <div className="container mx-auto px-4 py-16">
+      <div className="text-center max-w-2xl mx-auto mb-12">
+        <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">
+          {data.contact.title}
+        </h1>
+        <p className="text-lg text-slate-600">
+          {data.contact.description}
+        </p>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <Card>
+          <CardHeader className="flex-row items-center gap-4">
+            <Mail className="w-8 h-8 text-blue-600" />
+            <div>
+              <CardTitle>Email</CardTitle>
+              <p className="text-slate-600">{data.contact.email}</p>
+            </div>
+          </CardHeader>
+        </Card>
+        <Card>
+          <CardHeader className="flex-row items-center gap-4">
+            <Phone className="w-8 h-8 text-blue-600" />
+            <div>
+              <CardTitle>Telepon</CardTitle>
+              <p className="text-slate-600">{data.contact.phone}</p>
+            </div>
+          </CardHeader>
+        </Card>
+      </div>
+    </div>
+  );
+}
+
+[D:\Work\PROG\my-portfolio\src\app\projects\page.tsx]
+import data from '@/data/portfolioData.json';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import Link from 'next/link';
+import { ArrowUpRight } from 'lucide-react';
+
+export default function ProjectsPage() {
+  return (
+    <main className="container mx-auto px-4 py-16">
+      <div className="text-center max-w-3xl mx-auto mb-12">
+        <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">
+          {data.projects.title}
+        </h1>
+        <p className="text-lg text-slate-600">
+          {data.projects.description}
+        </p>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {data.projects.items.map((project) => (
+          <Card key={project.title} className="flex flex-col transition-all hover:shadow-lg hover:-translate-y-1">
+            <CardHeader>
+              <CardTitle>{project.title}</CardTitle>
+              <CardDescription>{project.description}</CardDescription>
+            </CardHeader>
+            <CardContent className="flex-grow flex flex-col justify-end">
+              <div className="mb-4">
+                <h4 className="text-sm font-semibold mb-2">Teknologi:</h4>
+                <div className="flex flex-wrap gap-2">
+                  {project.tech.map((tech) => (
+                    <span key={tech} className="bg-slate-100 text-slate-700 text-xs font-medium px-2.5 py-1 rounded-full">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              <a 
+                href={project.link} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-sm font-semibold text-blue-600 hover:text-blue-800 flex items-center gap-1"
+              >
+                Lihat Proyek <ArrowUpRight className="w-4 h-4" />
+              </a>
+            </CardContent>
+          </Card>
+        ))}
+      </div>
+    </main>
+  );
+}
+
+[D:\Work\PROG\my-portfolio\src\app\globals.css]
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* The officially exported path for the CSS file */
+@import 'tw-animate-css';
+
+[D:\Work\PROG\my-portfolio\src\app\layout.tsx]
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+import { cn } from "@/lib/utils";
+import Navbar from "@/components/Navbar"; // Correctly named import
+import Footer from "@/components/Footer";
+
+const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+
+export const metadata: Metadata = {
+    title: "Portfolio Kelompok 5",
+    description: "Portfolio hasil kerja Kelompok 5",
+};
+
+export default function RootLayout({
+    children,
+}: Readonly<{
+    children: React.ReactNode;
+}>) {
+    return (
+        <html lang="en">
+            <body
+                className={cn(
+                    "min-h-screen bg-slate-50 font-sans antialiased",
+                    inter.variable
+                )}
+            >
+                <Navbar />
+                <main className="flex-grow">
+                    {children}
+                </main>
+                <Footer />
+            </body>
+        </html>
+    );
+}
+
+[D:\Work\PROG\my-portfolio\src\app\page.tsx]
+import Link from 'next/link';
+import data from '@/data/portfolioData.json';
+import { Button } from '@/components/ui/button';
+
+export default function HomePage() {
+  return (
+    <main className="container mx-auto px-4">
+      <div className="flex h-[calc(90vh-4rem)] items-center justify-center text-center">
+        <div>
+          <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 mb-4 tracking-tight">
+            {data.home.title}
+          </h1>
+          <p className="max-w-2xl mx-auto text-lg text-slate-600 mb-8">
+            {data.home.subtitle}
+          </p>
+          <div className="flex justify-center gap-4">
+            <Button asChild size="lg">
+              <Link href="/projects">{data.home.cta_projects}</Link>
+            </Button>
+            <Button asChild size="lg" variant="outline">
+              <Link href="/contact">{data.home.cta_contact}</Link>
+            </Button>
+          </div>
+        </div>
+      </div>
+    </main>
+  );
+}
+
+[D:\Work\PROG\my-portfolio\src\components\ui\button.tsx]
+import * as React from "react"
+import { Slot } from "@radix-ui/react-slot"
+import { cva, type VariantProps } from "class-variance-authority"
+
+import { cn } from "@/lib/utils"
+
+const buttonVariants = cva(
+  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive",
+  {
+    variants: {
+      variant: {
+        default: "bg-primary text-primary-foreground hover:bg-primary/90",
+        destructive:
+          "bg-destructive text-white hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60",
+        outline:
+          "border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50",
+        secondary:
+          "bg-secondary text-secondary-foreground hover:bg-secondary/80",
+        ghost:
+          "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
+        link: "text-primary underline-offset-4 hover:underline",
+      },
+      size: {
+        default: "h-9 px-4 py-2 has-[>svg]:px-3",
+        sm: "h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5",
+        lg: "h-10 rounded-md px-6 has-[>svg]:px-4",
+        icon: "size-9",
+        "icon-sm": "size-8",
+        "icon-lg": "size-10",
+      },
+    },
+    defaultVariants: {
+      variant: "default",
+      size: "default",
+    },
+  }
+)
+
+function Button({
+  className,
+  variant,
+  size,
+  asChild = false,
+  ...props
+}: React.ComponentProps<"button"> &
+  VariantProps<typeof buttonVariants> & {
+    asChild?: boolean
+  }) {
+  const Comp = asChild ? Slot : "button"
+
+  return (
+    <Comp
+      data-slot="button"
+      className={cn(buttonVariants({ variant, size, className }))}
+      {...props}
+    />
+  )
+}
+
+export { Button, buttonVariants }
+
+
+[D:\Work\PROG\my-portfolio\src\components\ui\card.tsx]
+import * as React from "react"
+
+import { cn } from "@/lib/utils"
+
+function Card({ className, ...props }: React.ComponentProps<"div">) {
+  return (
+    <div
+      data-slot="card"
+      className={cn(
+        "bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm",
+        className
+      )}
+      {...props}
+    />
+  )
+}
+
+function CardHeader({ className, ...props }: React.ComponentProps<"div">) {
+  return (
+    <div
+      data-slot="card-header"
+      className={cn(
+        "@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6",
+        className
+      )}
+      {...props}
+    />
+  )
+}
+
+function CardTitle({ className, ...props }: React.ComponentProps<"div">) {
+  return (
+    <div
+      data-slot="card-title"
+      className={cn("leading-none font-semibold", className)}
+      {...props}
+    />
+  )
+}
+
+function CardDescription({ className, ...props }: React.ComponentProps<"div">) {
+  return (
+    <div
+      data-slot="card-description"
+      className={cn("text-muted-foreground text-sm", className)}
+      {...props}
+    />
+  )
+}
+
+function CardAction({ className, ...props }: React.ComponentProps<"div">) {
+  return (
+    <div
+      data-slot="card-action"
+      className={cn(
+        "col-start-2 row-span-2 row-start-1 self-start justify-self-end",
+        className
+      )}
+      {...props}
+    />
+  )
+}
+
+function CardContent({ className, ...props }: React.ComponentProps<"div">) {
+  return (
+    <div
+      data-slot="card-content"
+      className={cn("px-6", className)}
+      {...props}
+    />
+  )
+}
+
+function CardFooter({ className, ...props }: React.ComponentProps<"div">) {
+  return (
+    <div
+      data-slot="card-footer"
+      className={cn("flex items-center px-6 [.border-t]:pt-6", className)}
+      {...props}
+    />
+  )
+}
+
+export {
+  Card,
+  CardHeader,
+  CardFooter,
+  CardTitle,
+  CardAction,
+  CardDescription,
+  CardContent,
+}
+
+
+[D:\Work\PROG\my-portfolio\src\components\Footer.tsx]
+import data from '@/data/portfolioData.json';
+
+const Footer = () => {
+    return (
+        <footer className="border-t">
+            <div className="container mx-auto px-4 py-6 text-center text-sm text-slate-500">
+                <p>&copy; {new Date().getFullYear()} {data.site.name}. All rights reserved.</p>
+            </div>
+        </footer>
+    );
+};
+
+export default Footer;
+
+[D:\Work\PROG\my-portfolio\src\components\navbar.tsx]
+"use client";
+
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { cn } from '@/lib/utils';
+import data from '@/data/portfolioData.json';
+
+const Navbar = () => {
+    const pathname = usePathname();
+
+    return (
+        <header className="bg-white/80 backdrop-blur-sm border-b sticky top-0 z-50">
+            <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
+                <Link href="/" className="font-bold text-xl text-slate-800">
+                    {data.site.name}
+                </Link>
+                <div className="hidden md:flex items-center space-x-6">
+                    {data.site.navLinks.map((link) => {
+                        const isActive = pathname === link.href;
+                        return (
+                            <Link
+                                key={link.name}
+                                href={link.href}
+                                className={cn(
+                                    "text-sm font-medium transition-colors hover:text-blue-600",
+                                    isActive ? "text-blue-600 font-semibold" : "text-slate-600"
+                                )}
+                            >
+                                {link.name}
+                            </Link>
+                        );
+                    })}
+                </div>
+            </nav>
+        </header>
+    );
+};
+
+export default Navbar;
+
+[D:\Work\PROG\my-portfolio\src\data\portfolioData.json]
+{
+  "site": {
+    "name": "Kelompok 5 Portfolio",
+    "navLinks": [
+      { "name": "Home", "href": "/" },
+      { "name": "About", "href": "/about" },
+      { "name": "Projects", "href": "/projects" },
+      { "name": "Contact", "href": "/contact" }
+    ]
+  },
+  "home": {
+    "title": "Solusi Digital Inovatif",
+    "subtitle": "Kami adalah tim pengembang kreatif yang berdedikasi untuk membangun aplikasi web yang modern dan fungsional.",
+    "cta_projects": "Lihat Proyek Kami",
+    "cta_contact": "Hubungi Kami"
+  },
+  "about": {
+    "title": "Tentang Tim Kami",
+    "description": "Sebuah tim yang terdiri dari mahasiswa berbakat dengan semangat untuk teknologi dan pemecahan masalah. Setiap anggota membawa keahlian unik untuk menciptakan produk digital yang luar biasa."
+  },
+  "team": [
+    {
+      "name": "Adinda Arista",
+      "nim": "0920240047",
+      "role": "Project Manager & UI/UX Designer"
+    },
+    {
+      "name": "Dhonnan Raissa R.F",
+      "nim": "0920240042",
+      "role": "Lead Frontend Developer"
+    },
+    {
+      "name": "Nur Widyastuti",
+      "nim": "0920240055",
+      "role": "QA & UX Researcher"
+    },
+    {
+      "name": "Zafki Adipratama P",
+      "nim": "0920240037",
+      "role": "Backend & DevOps Engineer"
+    }
+  ],
+  "projects": {
+    "title": "Proyek Kami",
+    "description": "Berikut adalah beberapa proyek unggulan yang telah kami kerjakan, menunjukkan keahlian kami dalam pengembangan perangkat lunak.",
+    "items": [
+      {
+        "title": "SIA Scraper & Task Reminder",
+        "description": "Sebuah tool untuk melakukan scraping data dari website SIA universitas, yang kemudian menampilkan tugas atau file penting sebagai pengingat.",
+        "link": "https://github.com/DhonnanWork/ScrapingSIA",
+        "tech": ["Python", "Beautiful Soup", "Next.js"]
+      },
+      {
+        "title": "Platform E-Commerce 'NusaMart'",
+        "description": "Frontend untuk platform e-commerce fiktif yang menjual produk lokal Indonesia. Didesain dengan antarmuka yang bersih, responsif, dan modern.",
+        "link": "#",
+        "tech": ["Next.js", "Tailwind CSS", "TypeScript"]
+      },
+      {
+        "title": "Sistem Manajemen Inventaris 'Stok Cerdas'",
+        "description": "Aplikasi berbasis web sederhana untuk membantu UMKM melacak stok barang, mengelola data produk, dan memantau penjualan secara real-time.",
+        "link": "#",
+        "tech": ["React", "Node.js", "Express", "PostgreSQL"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "description": "Punya pertanyaan atau ide proyek yang ingin didiskusikan? Kami siap mendengarkan.",
+    "email": "kontak.kelompok5@email.com",
+    "phone": "+62 812-3456-7890"
+  }
+}
